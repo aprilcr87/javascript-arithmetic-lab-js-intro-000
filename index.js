@@ -23,7 +23,7 @@ function dec(n){
 }
 dec(2);
 function makeInt(n){
-  return typeof n;
+return parseInt(n)
 }
 
-makeInt('7', 10);
+makeInt('336', 10);
