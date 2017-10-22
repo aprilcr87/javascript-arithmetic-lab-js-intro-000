@@ -27,3 +27,7 @@ return parseInt(n, 10)
 }
 
 makeInt('3');
+function preserveDecimal(n){
+  return parseFloat(n, 10)
+}
+preserveDecimal('8.00');
