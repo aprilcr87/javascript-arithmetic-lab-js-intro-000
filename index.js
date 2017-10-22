@@ -26,4 +26,4 @@ function makeInt(n){
   return typeof n;
 }
 
-makeInt(7, 10);
+makeInt('7', 10);
